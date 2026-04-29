@@ -1,0 +1,20 @@
+# Ignore raw/HEIC image folders (we only need the converted JPEGs in /images)
+Calibration images T/
+Calibration images/
+L&R stereo images/
+third-person photo/
+image rsults/
+pp/
+
+# Ignore temporary generation scripts
+gen_nb_part1.py
+gen_nb_part2.py
+nb_cells_part1.json
+nb_cells_part2.json
+
+# Ignore temporary screenshots
+*.png
+
+# Standard Python/Jupyter ignores
+.ipynb_checkpoints/
+__pycache__/
